@@ -1,8 +1,8 @@
 var SLIDE_CONFIG = {
   // Slide settings
   settings: {
-    title: 'Front end developing course',
-    subtitle: '',
+    title: 'Frontend development',
+    subtitle: 'JavaScript',
     //eventInfo: {
     //  title: 'Google I/O',
     //  date: '6/x/2013'
