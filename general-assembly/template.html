@@ -158,13 +158,13 @@ URL: https://code.google.com/p/io-2012-slides
       <pre class="prettyprint" data-lang="javascript">
       &lt;script type='text/javascript'&gt;
         // define MY_FAV as a constant and give it the value 7
-        const MY_FAV = 7;
+        <b>const MY_FAV = 7;</b>
 
         // this will throw an error
         MY_FAV = 20;
 
-        // will print 7
-        console.log('my favorite number is: ' + MY_FAV);
+        <b>// will print 7
+        console.log('my favorite number is: ' + MY_FAV);</b>
       &lt;/script&gt;
       </pre>
     </article>
@@ -177,14 +177,14 @@ URL: https://code.google.com/p/io-2012-slides
     </hgroup>
     <article>
       <ul>
-        <li>Six data types that are <b>primitives</b>:
+        <li>Six data types that are <b class="blue3">primitives</b>:
           <ul>
-            <li><u>Boolean</u>. eg. true and false.</li>
-            <li><u>null</u>. eg. A special keyword denoting a null value. Because JavaScript is case-sensitive, null is not the same as Null, NULL, or any other variant.</li>
-            <li><u>undefined</u>. eg. A top-level property whose value is undefined.</li>
-            <li><u>Number</u>. eg. 42 or 3.14159.</li>
-            <li><u>String</u>. eg. "Howdy"</li>
-            <li><u>Symbol</u> (new in ECMAScript 2015). eg. A data type whose instances are unique and immutable.</li>
+            <li><u class="blue3">Boolean</u>. eg. true and false.</li>
+            <li><u class="blue3">null</u>. eg. A special keyword denoting a null value. Because JavaScript is case-sensitive, null is not the same as Null, NULL, or any other variant.</li>
+            <li><u class="blue3">undefined</u>. eg. A top-level property whose value is undefined.</li>
+            <li><u class="blue3">Number</u>. eg. 42 or 3.14159.</li>
+            <li><u class="blue3">String</u>. eg. "Howdy"</li>
+            <li><u class="blue3">Symbol</u> (new in ECMAScript 2015). eg. A data type whose instances are unique and immutable.</li>
           </ul>
         </li>
         <li>Object</li>
@@ -194,6 +194,7 @@ URL: https://code.google.com/p/io-2012-slides
 
   <slide>
     <hgroup>
+      <h2>JavaScript</h2>
       <h3>Conditional statement</h3>
     </hgroup>
     <article>
@@ -207,7 +208,7 @@ URL: https://code.google.com/p/io-2012-slides
       <h4>if...else statement</h4>
     </hgroup>
     <article>
-      <p>Use the if statement to execute a statement if a logical condition is true. Use the optional else clause to execute a statement if the condition is false. An if statement looks as follows:</p>
+      <p>Use the if statement to execute a statement if a logical condition is true. Use the optional else clause to execute a statement if the condition is false.</p>
       
       <pre class="prettyprint" data-lang="javascript">
       if (condition_1) {
@@ -229,7 +230,7 @@ URL: https://code.google.com/p/io-2012-slides
       <h4>switch statement</h4>
     </hgroup>
     <article>
-      <p>A switch statement allows a program to evaluate an expression and attempt to match the expression's value to a case label. If a match is found, the program executes the associated statement. A switch statement looks as follows:</p>
+      <p>A switch statement allows a program to evaluate an expression and attempt to match the expression's value to a case label. If a match is found, the program executes the associated statement.</p>
       
       <pre class="prettyprint" data-lang="javascript">
       switch (fruittype) {
