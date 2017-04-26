@@ -118,10 +118,10 @@ URL: https://code.google.com/p/io-2012-slides
         function varTest() {
           var x = 1;
           if (true) {
-            var x = 2;  // same variable!
+            <b>var x = 2;</b>  // same variable!
             console.log(x);  // 2
           }
-          console.log(x);  // 2
+          <b>console.log(x);</b>  // 2
         }
       &lt;/script&gt;
       </pre>
@@ -137,12 +137,12 @@ URL: https://code.google.com/p/io-2012-slides
       <pre class="prettyprint" data-lang="javascript">
       &lt;script type='text/javascript'&gt;
         function letTest() {
-          let x = 1;
+          <b>let x = 1;</b>
           if (true) {
-            let x = 2;  // different variable
-            console.log(x);  // 2
+            <b>let x = 2;  // different variable
+            console.log(x);</b>  // 2
           }
-          console.log(x);  // 1
+          <b>console.log(x);</b>  // 1
         }
       &lt;/script&gt;
       </pre>
